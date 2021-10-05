@@ -1,6 +1,14 @@
 # CTScanText
 
-A SwiftUI package that adds functionality to a TextField and TextEditor view.
+<p>
+    <img src="https://img.shields.io/badge/iOS-15.0+-red.svg" />
+    <img src="https://img.shields.io/badge/Swift-5.1-f39f37.svg" />
+    <a href="https://twitter.com/StewartLynch">
+    <img src="https://img.shields.io/badge/Contact-@StewartLynch-lightgrey.svg?style=flat" alt="Twitter: @StewartLynch" />
+    </a>
+</p>
+
+A SwiftUI package that adds converts  a UITextField and UITextView to a SwiftUI version of a TextField and TextEditor view with added functionality.
 
 ## ScanTextField
 
@@ -22,7 +30,7 @@ Adds a button that will present the scan text from camera option for all content
 
 A button, that when tapped will dismiss the keyboard.
 
-#### Examples
+### Usage
 
 > **Note:** ScanTextField must have a frame height applied.
 
@@ -82,10 +90,10 @@ A button, that when tapped will dismiss the keyboard.
 VStack {
     HStack {
         ScanTextEditor("Example 1", text: $text)
-              .frame(height: 120)
-            ScanTextEditor("Example 2", text: $text2)
-                 .scanTextEditorStyle(.roundedBorder)
-                 .frame(height: 120)
+            .frame(height: 120)
+        ScanTextEditor("Example 2", text: $text2)
+             .scanTextEditorStyle(.roundedBorder)
+             .frame(height: 120)
     }
         ScanTextEditor("Example 3", text: $text3)
             .scanTextEditorStyle(.roundedBorderWithBackground(.quaternarySystemFill))
