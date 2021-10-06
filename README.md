@@ -107,7 +107,7 @@ VStack {
 
 You can watch this YouTube tutorial to learn all about the scan to camera feature of iOS 15 along with the implementation of CTScanText and how you can modify the package to meet your own needs.
 
-https://youtube.com/eyize9dg
+https://youtu.be/3x2iWzzHwrE
 
 ## Installation
 
